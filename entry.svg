@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <style>
+      text { font-family: 'DejaVu Sans', Arial, sans-serif; }
+      .kicker { font-size: 15px; font-weight: 700; letter-spacing: 2px; }
+      .tile-kicker { font-size: 14px; font-weight: 700; letter-spacing: 1.4px; }
+      .lead { font-size: 36px; font-weight: 700; }
+      .sub { font-size: 21px; font-weight: 400; }
+      .tile-head { font-size: 26px; font-weight: 700; }
+      .tile-head-sm { font-size: 25px; font-weight: 700; }
+      .tile-sub { font-size: 16px; font-weight: 400; }
+      .source { font-size: 13px; font-weight: 700; letter-spacing: 1.1px; }
+      .micro { font-size: 13px; font-weight: 700; letter-spacing: 2px; }
+      .icon { fill: none; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <!-- Paper -->
+  <rect width="1024" height="1024" fill="#F4F0E6"/>
+
+  <!-- Masthead -->
+  <rect x="0" y="0" width="1024" height="172" fill="#0D1B2A"/>
+  <rect x="0" y="0" width="1024" height="7" fill="#E4573F"/>
+  <text x="36" y="38" font-size="15" font-weight="700" letter-spacing="3" fill="#9FB6C4">THE DAILY WORLD BRIEF</text>
+  <text x="34" y="102" font-size="68" font-weight="700" letter-spacing="-1" fill="#FBF7EC">THE WORLD</text>
+  <rect x="36" y="118" width="606" height="38" rx="3" fill="#F2B23E"/>
+  <text x="54" y="144" font-size="27" font-weight="700" fill="#0D1B2A">MONDAY 23 NOVEMBER 2026</text>
+  <line x1="800" y1="30" x2="800" y2="150" stroke="#2B4358" stroke-width="2"/>
+  <text x="842" y="112" font-size="88" font-weight="700" fill="#E4573F">23</text>
+  <text x="846" y="142" font-size="16" font-weight="700" letter-spacing="3" fill="#9FB6C4">NOV 2026</text>
+
+  <!-- Section rule -->
+  <line x1="0" y1="172" x2="1024" y2="172" stroke="#0D1B2A" stroke-width="2"/>
+  <text x="36" y="190" class="micro" fill="#0D1B2A">LEAD STORIES</text>
+  <text x="988" y="190" class="micro" text-anchor="end" fill="#526878">REUTERS · CNN</text>
+
+  <!-- Lead 1: oil -->
+  <g>
+    <rect x="34" y="204" width="468" height="340" rx="4" fill="#142A3E"/>
+    <rect x="34" y="204" width="468" height="8" rx="2" fill="#E4573F"/>
+    <text x="58" y="250" class="kicker" fill="#F08A72">ENERGY &amp; MARKETS</text>
+    <text x="56" y="308" class="lead" fill="#FBF7EC">OIL FALLS AS</text>
+    <text x="56" y="352" class="lead" fill="#FBF7EC">EQUITIES SLIDE</text>
+    <line x1="58" y1="372" x2="478" y2="372" stroke="#35506A" stroke-width="2"/>
+    <text x="58" y="406" class="sub" fill="#D7E2E7">Iran war attacks limit losses</text>
+    <text x="58" y="520" class="source" fill="#9FB6C4">REUTERS · 23 NOV 2026</text>
+    <!-- barrel and falling marker -->
+    <g class="icon" stroke="#E4573F" opacity="0.9">
+      <path d="M416 229 C416 223 432 223 432 229 L432 270 C432 276 416 276 416 270 Z"/>
+      <path d="M416 229 L416 270 M432 229 L432 270"/>
+      <path d="M417 240 L431 240 M417 259 L431 259"/>
+    </g>
+    <path d="M444 232 L444 258 M438 252 L444 258 L450 252" fill="none" stroke="#F2B23E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Lead 2: Ukraine -->
+  <g>
+    <rect x="522" y="204" width="468" height="340" rx="4" fill="#123A3E"/>
+    <rect x="522" y="204" width="468" height="8" rx="2" fill="#35B9A5"/>
+    <text x="546" y="250" class="kicker" fill="#6EE0CD">ZELENSKIY SAYS</text>
+    <text x="544" y="308" class="lead" fill="#FBF7EC">UKRAINE SANK</text>
+    <text x="544" y="352" class="lead" fill="#FBF7EC">RUSSIAN CORVETTE</text>
+    <line x1="546" y1="372" x2="966" y2="372" stroke="#2B5F5F" stroke-width="2"/>
+    <text x="546" y="406" class="sub" fill="#D7E7E4">Near Libya's coast; cargo ship also hit</text>
+    <text x="546" y="520" class="source" fill="#9FC9C3">REUTERS · 23 NOV 2026</text>
+    <!-- ship silhouette -->
+    <g class="icon" stroke="#35B9A5" opacity="0.95">
+      <path d="M898 255 L946 255 L938 270 L906 270 Z"/>
+      <path d="M922 255 L922 228 L941 240 L922 240"/>
+      <path d="M889 278 C900 284 913 284 924 278 C935 272 948 272 957 278"/>
+    </g>
+  </g>
+
+  <!-- Brief label -->
+  <text x="34" y="574" class="micro" fill="#0D1B2A">THE DAY IN BRIEF</text>
+  <text x="988" y="574" class="micro" text-anchor="end" fill="#526878">04 MORE STORIES</text>
+
+  <!-- Tile 3: Iran -->
+  <g>
+    <rect x="34" y="590" width="468" height="158" rx="3" fill="#FBF8F0" stroke="#CBD2CC" stroke-width="2"/>
+    <rect x="34" y="590" width="8" height="158" fill="#3E7CB1"/>
+    <text x="58" y="620" class="tile-kicker" fill="#2E6794">IRAN SAYS</text>
+    <text x="58" y="662" class="tile-head" fill="#0D1B2A">ALL TOOLS AGAINST</text>
+    <text x="58" y="694" class="tile-head" fill="#0D1B2A">U.S. NAVAL BLOCKADE</text>
+    <text x="58" y="722" class="tile-sub" fill="#455A64">Says it will confront blockade</text>
+    <text x="58" y="743" class="source" fill="#6E7C82">REUTERS</text>
+    <g class="icon" stroke="#3E7CB1" opacity="0.85">
+      <path d="M444 611 C453 611 460 618 460 627 L460 641 C460 653 452 660 444 663 C436 660 428 653 428 641 L428 627 C428 618 435 611 444 611 Z"/>
+      <path d="M438 638 L442 642 L451 632"/>
+    </g>
+  </g>
+
+  <!-- Tile 4: India / Nepal -->
+  <g>
+    <rect x="522" y="590" width="468" height="158" rx="3" fill="#FBF8F0" stroke="#CBD2CC" stroke-width="2"/>
+    <rect x="522" y="590" width="8" height="158" fill="#B87412"/>
+    <text x="546" y="620" class="tile-kicker" fill="#8E5A0B">SOUTH ASIA</text>
+    <text x="546" y="662" class="tile-head" fill="#0D1B2A">INDIA PLEDGES $1.62BN</text>
+    <text x="546" y="694" class="tile-head" fill="#0D1B2A">FOR FLOOD-HIT NEPAL</text>
+    <text x="546" y="722" class="tile-sub" fill="#455A64">Economic package for recovery</text>
+    <text x="546" y="743" class="source" fill="#6E7C82">REUTERS</text>
+    <g class="icon" stroke="#B87412" opacity="0.85">
+      <path d="M925 618 C930 624 937 628 937 635 C937 642 932 647 925 647 C918 647 913 642 913 635 C913 628 920 624 925 618 Z"/>
+      <path d="M903 653 C912 648 920 648 929 653 C938 658 947 658 956 653"/>
+      <path d="M903 663 C912 658 920 658 929 663 C938 668 947 668 956 663"/>
+    </g>
+  </g>
+
+  <!-- Tile 5: COP31 -->
+  <g>
+    <rect x="34" y="766" width="468" height="158" rx="3" fill="#FBF8F0" stroke="#CBD2CC" stroke-width="2"/>
+    <rect x="34" y="766" width="8" height="158" fill="#1E8F80"/>
+    <text x="58" y="796" class="tile-kicker" fill="#14766A">CLIMATE TALKS</text>
+    <text x="58" y="838" class="tile-head" fill="#0D1B2A">COP31 COLLAPSES OVER</text>
+    <text x="58" y="870" class="tile-head" fill="#0D1B2A">FOSSIL-FUEL LANGUAGE</text>
+    <text x="58" y="898" class="tile-sub" fill="#455A64">EU and others reject deal</text>
+    <text x="58" y="919" class="source" fill="#6E7C82">CNN / REUTERS</text>
+    <g class="icon" stroke="#1E8F80" opacity="0.85">
+      <circle cx="444" cy="823" r="21"/>
+      <path d="M423 823 L465 823 M444 802 C452 810 452 836 444 844 M444 802 C436 810 436 836 444 844"/>
+      <path d="M429 808 L459 838"/>
+    </g>
+  </g>
+
+  <!-- Tile 6: nuclear satellite -->
+  <g>
+    <rect x="522" y="766" width="468" height="158" rx="3" fill="#FBF8F0" stroke="#CBD2CC" stroke-width="2"/>
+    <rect x="522" y="766" width="8" height="158" fill="#D14E38"/>
+    <text x="546" y="796" class="tile-kicker" fill="#A83A29">GERMAN MEDIA SAY</text>
+    <text x="546" y="836" class="tile-head-sm" fill="#0D1B2A">RUSSIA READY TO LAUNCH</text>
+    <text x="546" y="868" class="tile-head-sm" fill="#0D1B2A">NUCLEAR-ARMED SATELLITE</text>
+    <text x="546" y="898" class="tile-sub" fill="#455A64">NATO members' intelligence assessment</text>
+    <text x="546" y="919" class="source" fill="#6E7C82">REUTERS</text>
+    <g class="icon" stroke="#D14E38" opacity="0.85">
+      <rect x="930" y="807" width="20" height="20" rx="2"/>
+      <path d="M924 812 L930 812 M924 822 L930 822 M950 812 L956 812 M950 822 L956 822"/>
+      <path d="M940 803 L940 795 M934 795 L946 795"/>
+      <circle cx="940" cy="817" r="3" fill="#D14E38" stroke="none"/>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <rect x="0" y="942" width="1024" height="58" fill="#0D1B2A"/>
+  <rect x="0" y="942" width="1024" height="4" fill="#F2B23E"/>
+  <text x="36" y="977" font-size="16" font-weight="700" letter-spacing="2" fill="#FBF7EC">23 NOVEMBER 2026 · SIX STORIES · ONE WORLD</text>
+  <text x="988" y="977" font-size="14" font-weight="700" letter-spacing="1.5" text-anchor="end" fill="#9FB6C4">REUTERS · CNN/REUTERS</text>
+</svg>
